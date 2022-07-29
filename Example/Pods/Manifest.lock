@@ -1,0 +1,28 @@
+PODS:
+  - CltDaLibForOS (0.1.0):
+    - mvspsdk
+    - OpenSSL-Universal
+  - mvspsdk (7)
+  - OpenSSL-Universal (1.1.1700)
+
+DEPENDENCIES:
+  - CltDaLibForOS (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - OpenSSL-Universal
+  https://github.com/RMTelephone/RMSpecs.git:
+    - mvspsdk
+
+EXTERNAL SOURCES:
+  CltDaLibForOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CltDaLibForOS: d13e7ffe97456e26847ca609019f06b1e2454af0
+  mvspsdk: e2e21892d90f67707d31505d13b79ec4bc9e657d
+  OpenSSL-Universal: ee0a7a25f2042782e2df405e66db3e429198e392
+
+PODFILE CHECKSUM: 784228729db06645606f8c053794db73ea58f9a7
+
+COCOAPODS: 1.11.3

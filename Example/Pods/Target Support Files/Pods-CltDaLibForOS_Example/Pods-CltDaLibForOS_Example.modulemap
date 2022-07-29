@@ -1,0 +1,6 @@
+framework module Pods_CltDaLibForOS_Example {
+  umbrella header "Pods-CltDaLibForOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

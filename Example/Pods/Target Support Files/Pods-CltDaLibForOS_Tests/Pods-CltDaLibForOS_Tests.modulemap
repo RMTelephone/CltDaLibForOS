@@ -1,0 +1,6 @@
+framework module Pods_CltDaLibForOS_Tests {
+  umbrella header "Pods-CltDaLibForOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

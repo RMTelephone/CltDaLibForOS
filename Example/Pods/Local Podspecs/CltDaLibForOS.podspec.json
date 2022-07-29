@@ -1,0 +1,40 @@
+{
+  "name": "CltDaLibForOS",
+  "version": "0.1.0",
+  "summary": "A short description of CltDaLibForOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/16422230/CltDaLibForOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "16422230": "liucong@streamax.com"
+  },
+  "source": {
+    "git": "https://github.com/16422230/CltDaLibForOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "armv7 arm64",
+    "ENABLE_BITCODE": "NO"
+  },
+  "vendored_frameworks": "CltDaLibForOS/Framework/*.framework",
+  "libraries": [
+    "z.1.2.5",
+    "iconv.2.4.0"
+  ],
+  "frameworks": "Foundation",
+  "dependencies": {
+    "mvspsdk": [
+
+    ],
+    "OpenSSL-Universal": [
+
+    ]
+  }
+}

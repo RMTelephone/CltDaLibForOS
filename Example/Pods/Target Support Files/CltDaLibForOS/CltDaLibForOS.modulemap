@@ -1,0 +1,6 @@
+framework module CltDaLibForOS {
+  umbrella header "CltDaLibForOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

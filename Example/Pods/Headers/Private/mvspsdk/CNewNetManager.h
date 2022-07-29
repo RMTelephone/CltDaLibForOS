@@ -1,0 +1,1 @@
+../../../mvspsdk/mvspsdk/Classes/mvspsdk/CNewNetManager.h
