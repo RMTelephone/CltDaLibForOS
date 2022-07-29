@@ -1,5 +1,5 @@
 PODS:
-  - CltDaLibForOS (0.1.0):
+  - CltDaLibForOS (1):
     - mvspsdk
     - OpenSSL-Universal
   - mvspsdk (7)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CltDaLibForOS: d13e7ffe97456e26847ca609019f06b1e2454af0
+  CltDaLibForOS: b42a75bcb4a31f647b9cecf19c64a79f14de240a
   mvspsdk: e2e21892d90f67707d31505d13b79ec4bc9e657d
   OpenSSL-Universal: ee0a7a25f2042782e2df405e66db3e429198e392
 

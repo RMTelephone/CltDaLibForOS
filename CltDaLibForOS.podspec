@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CltDaLibForOS'
   s.version          = '1'
-  s.summary          = 'A short description of CltDaLibForOS.'
+  s.summary          = 'CltDaLibForOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/16422230/CltDaLibForOS'
+  s.homepage         = 'https://github.com/RMTelephone/CltDaLibForOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '16422230' => 'liucong@streamax.com' }
-  s.source           = { :git => 'https://github.com/16422230/CltDaLibForOS.git', :tag => s.version.to_s }
+  s.author           = { 'jgyhc' => 'jgyhc@foxmail.com' }
+  s.source           = { :git => 'https://github.com/RMTelephone/CltDaLibForOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
   s.static_framework = true
   #s.source_files = 'CltDaLibForOS/Classes/**/*'
   

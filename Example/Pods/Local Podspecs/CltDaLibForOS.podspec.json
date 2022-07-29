@@ -1,22 +1,22 @@
 {
   "name": "CltDaLibForOS",
-  "version": "0.1.0",
-  "summary": "A short description of CltDaLibForOS.",
+  "version": "1",
+  "summary": "CltDaLibForOS.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/16422230/CltDaLibForOS",
+  "homepage": "https://github.com/RMTelephone/CltDaLibForOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "16422230": "liucong@streamax.com"
+    "jgyhc": "jgyhc@foxmail.com"
   },
   "source": {
-    "git": "https://github.com/16422230/CltDaLibForOS.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/RMTelephone/CltDaLibForOS.git",
+    "tag": "1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
   "static_framework": true,
   "pod_target_xcconfig": {

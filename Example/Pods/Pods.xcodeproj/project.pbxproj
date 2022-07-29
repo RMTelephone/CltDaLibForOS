@@ -548,20 +548,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15C097D9C65F4C8C4538AE62C69E36F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 825D76F849B2DB9DEF9DCB9B76605769 /* CltDaLibForOS.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		4698A1E13C13A511F6B307EE465C30DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B80152D233BD244E86FF60E7018240D2 /* Pods-CltDaLibForOS_Example.release.xcconfig */;
@@ -630,21 +616,6 @@
 			};
 			name = Release;
 		};
-		793B23D032AC6C0AE05D2F177D31C1DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CE8E3E4788FA0E40BFF76F76654EFBE /* CltDaLibForOS.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -707,6 +678,20 @@
 			};
 			name = Release;
 		};
+		876E0647A08CE71BD21B3320BBFBC2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE8E3E4788FA0E40BFF76F76654EFBE /* CltDaLibForOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		A09E88A2AEF753B290575ACD06AAB07C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 689FFD88242571B4D5031924A2FCC416 /* OpenSSL-Universal.release.xcconfig */;
@@ -720,6 +705,19 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		B4E01CDC5F2AF80A54DA465853E59320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825D76F849B2DB9DEF9DCB9B76605769 /* CltDaLibForOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		BC88A1495466F8C04EA6749059F33CFD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -926,8 +924,8 @@
 		70BA6F080D54302B3B8F5A6E0FA8395A /* Build configuration list for PBXAggregateTarget "CltDaLibForOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15C097D9C65F4C8C4538AE62C69E36F1 /* Debug */,
-				793B23D032AC6C0AE05D2F177D31C1DF /* Release */,
+				B4E01CDC5F2AF80A54DA465853E59320 /* Debug */,
+				876E0647A08CE71BD21B3320BBFBC2A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
